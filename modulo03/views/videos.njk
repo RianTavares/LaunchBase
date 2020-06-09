@@ -1,0 +1,81 @@
+{% extends "layout.html" %} {% block head %}
+<title>Vídeos - Rian Tavares</title>
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+{% endblock %} {% block content %}
+<div id="videos">
+  <hgroup>
+    <h1>Vídeos</h1>
+  </hgroup>
+
+  <section class="cards">
+    <div class="card" id="0fFWesHTQYU">
+      <div class="card__image-container">
+        <img
+          src="https://img.youtube.com/vi/0fFWesHTQYU/mqdefault.jpg"
+          alt="PC Gamer"
+        />
+      </div>
+      <div class="card__content">
+        <p>Super PC GAMER com Watercooler Customizado</p>
+      </div>
+      <div class="card__info">
+        <p>04 min</p>
+        <p class="card__price">Free</p>
+      </div>
+    </div>
+
+    <div class="card" id="BT-1vebZdJc">
+      <div class="card__image-container">
+        <img
+          src="https://img.youtube.com/vi/BT-1vebZdJc/maxresdefault.jpg"
+          alt="Trabalho Remoto"
+        />
+      </div>
+      <div class="card__content">
+        <p>
+          Trabalho Remoto: Está trabalhando de casa? Confira algumas dicas |
+          COVID-19
+        </p>
+      </div>
+      <div class="card__info">
+        <p>04 min</p>
+        <p class="card__price">Free</p>
+      </div>
+    </div>
+
+    <div class="card" id="qqFpZm1zLAQ">
+      <div class="card__image-container">
+        <img
+          src="https://img.youtube.com/vi/qqFpZm1zLAQ/maxresdefault.jpg"
+          alt="O que fazer na quarentena"
+        />
+      </div>
+      <div class="card__content">
+        <p>O QUE FAZER NA QUARENTENA? 5 DICAS E SERVIÇOS GRATUITOS</p>
+      </div>
+      <div class="card__info">
+        <p>04 min</p>
+        <p class="card__price">Free</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <a class="close-modal">
+        <i class="material-icons">close</i>
+      </a>
+
+      <div class="modal-content">
+        <iframe src="https://www.youtube.com/embed/0fFWesHTQYU"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="scripts.js"></script>
+
+{% endblock %}
