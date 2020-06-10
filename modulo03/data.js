@@ -3,7 +3,8 @@ module.exports = [
         id: "0fFWesHTQYU",
         title: "Super PC GAMER com Watercooler Customizado",
         duration: "04 min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "BT-1vebZdJc",
