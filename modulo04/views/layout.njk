@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+    <title>Rian Tavares</title>
+    {% endblock %}
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/">Sobre</a>
+        <a href="/videos">Vídeos</a>
+      </nav>
+    </header>
+
+    {% block content %} {% endblock %}
+  </body>
+</html>
