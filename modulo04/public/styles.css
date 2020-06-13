@@ -56,3 +56,16 @@ body {
   width: 100%;
   transition: width 200ms ease-in-out;
 }
+
+/*=== CARDS ===*/
+
+.cards {
+  width: 800px;
+  height: 400px;
+  background: white;
+  margin-top: 45px;
+  margin: 45px auto 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
