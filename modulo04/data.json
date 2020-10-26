@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://addfsdf.com",
+      "name": "asdasdasd",
+      "birth": 1603584000000,
+      "gender": "M",
+      "services": "asdasdasd",
+      "created_at": 1603063813248
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8935295?s=460&u=cf7e17066e5487b68e4f23e8114c55737eccbf27&v=4",
+      "name": "Rian Tavares",
+      "birth": 759369600000,
+      "gender": "M",
+      "services": "funcional, surf",
+      "created_at": 1603748423306
+    }
+  ]
+}
